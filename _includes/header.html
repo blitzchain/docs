@@ -1,0 +1,16 @@
+<header id="site-header" class="header">
+    <div id="header-wrapper" class="wrapper">
+        {% include site-logo.html %}
+        <nav id="desktop-navigation" class="menu-desktop-navigation-menu-container">
+            <ul id="desktop-menu" class="header-menu">
+                {% for item in site.data.navigation-menus.primary-menu %}
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447">
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <a id="header-cta" href="{{ site.header_cta_url }}">{{ site.header_cta_title }}</a>
+        <button id="mobile-menu-toggle" class="toggle-button" onclick="toggleMobileMenu()">&#9776;</button>
+    </div>
+</header>

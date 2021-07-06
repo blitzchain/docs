@@ -1,0 +1,91 @@
+
+sdks:
+  - title: Getting Started
+    url: /thing1.html
+    subfolderitems:
+      - page: Javascript Quickstart
+        url: /thing1.html
+      - page: iOS Quickstart
+        url: /thing2.html
+      - page: Android Quickstart
+        url: /thing3.html
+  - title: Using SDKs
+    url: /thing1.html
+    subfolderitems:
+      - page: Javascript Quickstart
+        url: /thing1.html
+      - page: iOS Quickstart
+        url: /thing2.html
+      - page: Android Quickstart
+        url: /thing3.html
+  - title: Server API
+    url: /thing1.html
+    subfolderitems:
+      - page: Javascript Quickstart
+        url: /thing1.html
+      - page: iOS Quickstart
+        url: /thing2.html
+      - page: Android Quickstart
+        url: /thing3.html
+
+
+  
+ui-elements:
+  - title: Getting Started
+    url: /thing1.html
+    subfolderitems:
+      - page: Javascript Quickstart
+        url: /thing1.html
+      - page: iOS Quickstart
+        url: /thing2.html
+      - page: Android Quickstart
+        url: /thing3.html
+  - title: Using SDKs
+    url: /thing1.html
+    subfolderitems:
+      - page: Javascript Quickstart
+        url: /thing1.html
+      - page: iOS Quickstart
+        url: /thing2.html
+      - page: Android Quickstart
+        url: /thing3.html
+  - title: Server API
+    url: /thing1.html
+    subfolderitems:
+      - page: Javascript Quickstart
+        url: /thing1.html
+      - page: iOS Quickstart
+        url: /thing2.html
+      - page: Android Quickstart
+        url: /thing3.html
+
+
+
+data-lake:
+  - title: Getting Started
+    url: /thing1.html
+    subfolderitems:
+      - page: Javascript Quickstart
+        url: /thing1.html
+      - page: iOS Quickstart
+        url: /thing2.html
+      - page: Android Quickstart
+        url: /thing3.html
+  - title: Using SDKs
+    url: /thing1.html
+    subfolderitems:
+      - page: Javascript Quickstart
+        url: /thing1.html
+      - page: iOS Quickstart
+        url: /thing2.html
+      - page: Android Quickstart
+        url: /thing3.html
+  - title: Server API
+    url: /thing1.html
+    subfolderitems:
+      - page: Javascript Quickstart
+        url: /thing1.html
+      - page: iOS Quickstart
+        url: /thing2.html
+      - page: Android Quickstart
+        url: /thing3.html

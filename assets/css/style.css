@@ -1,0 +1,253 @@
+/******************************************************************/
+/*************************** Site Logo ****************************/
+/******************************************************************/
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.custom-logo-link {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.custom-logo {
+    height: 45px;
+    width:auto;
+}
+
+.dojo-logo {
+    height: 30px;
+    width: auto;
+}
+
+.custom-logo-title{
+    font-family: 'League Gothic', condenced-regular;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0px 0px -2px 0px;
+    padding: 3px 0px 0px 4px;
+    color: var(--theme-color-one);
+}
+
+.coderdojo-name {
+    font-family: 'League Gothic', condenced-regular;
+    font-weight: 400;
+    font-size: 28px;
+    margin: 0px 0px -2px 0px;
+    padding: 3px 0px 0px 4px;
+}
+
+/******************************************************************/
+/***************************** Header *****************************/
+/******************************************************************/
+    
+#site-header {
+    background: var(--core-color-one);
+    max-height: 109px;
+}
+    
+#header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.site-navigation {
+    display:none;
+}
+
+@media only screen and (min-width: 600px) {
+
+    #header-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+
+    #header-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/******************************************************************/
+/*************************** Primary Menu *************************/
+/******************************************************************/
+
+#header-cta,
+#desktop-navigation {
+    display: none;
+}
+
+.header-menu {
+    list-style:none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4px;
+}
+    
+#header-cta,
+.header-menu > .menu-item > a {
+    text-decoration:none;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--theme-color-one);
+    padding: 12px;
+}
+
+.header-menu > .menu-item > a {
+    display: block;
+} 
+
+@media only screen and (min-width: 769px) {
+
+    #header-cta,
+    #desktop-navigation {
+        display: block;
+    }
+}
+
+/******************************************************************/
+/*************************** Mobile Menu **************************/
+/******************************************************************/
+    
+#menu-mobile-navigation-menu {
+    padding-inline-start: 0px;
+}  
+
+#mobile-menu-toggle {
+    color: var(--theme-color-one);
+    font-size: 25px;
+    cursor: pointer;
+    display: block;
+    margin: 0px 15px;
+    padding: 3px 12px;
+    border-width: 0px;
+    background: transparent;
+    float:right;
+    z-index: 3;
+}
+    
+#mobile-navigation {
+    padding-inline-start: 0px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top:109;
+    background-color: var(--core-color-three);
+    overflow-x: hidden;
+    width: 0;
+    transition: 0.5s;
+    display: none;
+}
+    
+#mobile-navigation ul {
+    margin: 0;
+    padding-left: 0;
+    list-style:none;
+    display: block;
+    justify-content: space-evenly;
+}
+    
+#mobile-navigation ul li {
+    list-style: none;
+    padding: 0px 16px;
+    display: block;
+}
+    
+#mobile-navigation ul li a {
+    color: var(--theme-color-one);
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+@media only screen and (min-width: 769px) {
+
+    #mobile-navigation {   
+        display: none;
+    }
+
+    #mobile-menu-toggle {
+        display: none;
+    }
+}
+
+
+/******************************************************************/
+/*************************** Sidebar Menu *************************/
+/******************************************************************/
+
+.sidebar-menu {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.sidebar-menu li{
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.sidebar-menu li:hover{
+    background: #fafafa;
+}
+
+.sidebar-menu li a{
+    color:var(--theme-color-one);
+    text-decoration: none;
+}
+
+.sidebar-menu li a:hover{
+    background: #fafafa;
+    color: #6E5AEA;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+/******************************************************************/
+/*************************** Content *************************/
+/******************************************************************/
+
+.row {
+    display: flex;
+}
+#sidebar {
+    width: 33.33%;
+    -webkit-box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);
+    -moz-box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);
+    box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);
+}
+
+#page {
+    width: 66.67%;
+    padding: 20px 40px 20px 40px;
+}

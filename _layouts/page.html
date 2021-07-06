@@ -1,0 +1,77 @@
+---
+layout: default
+---
+  
+<div class=row>
+    <div id="sidebar" class=column>
+        <div class="accordion-container">
+            <h2 class="accordion">SDKs</h2>
+            <div class="panel">
+                {% for item in site.data.sidebar-menus.sdks %}
+                <h3>{{ item.title }}</h3>
+                <ul class="sidebar-menu">
+                    {% for entry in item.subfolderitems %}
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447">
+                        <a href="{{ entry.url }}">{{ entry.page }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+            </div>
+            <h2 class="accordion">UI Elements</h2>
+            <div class="panel">
+                {% for item in site.data.sidebar-menus.ui-elements %}
+                <h3>{{ item.title }}</h3>
+                <ul class="sidebar-menu">
+                    {% for entry in item.subfolderitems %}
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447">
+                        <a href="{{ entry.url }}">{{ entry.page }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+            </div>
+            <h2 class="accordion">Data Lake</h2>
+            <div class="panel">
+                {% for item in site.data.sidebar-menus.data-lake %}
+                <h3>{{ item.title }}</h3>
+                <ul class="sidebar-menu">
+                    {% for entry in item.subfolderitems %}
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447">
+                        <a href="{{ entry.url }}">{{ entry.page }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+            </div>
+        </div>
+        
+    </div>
+    <div id="page" class=column>
+        <h1>{{ page.title}}</h1>
+        {{ content }} 
+    </div>
+</div>
+
+<script>
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    
