@@ -1,31 +1,45 @@
 
 sdks:
   - title: Getting Started
-    url: /thing1.html
+    url: /sdks/getting-started
     subfolderitems:
-      - page: Javascript Quickstart
-        url: /thing1.html
-      - page: iOS Quickstart
-        url: /thing2.html
-      - page: Android Quickstart
-        url: /thing3.html
+      - page: Java Quickstart
+        url: /sdks/getting-started/java-quickstart
+      - page: Python Quickstart
+        url: /sdks/getting-started/python-quickstart
+      - page: GoLang Quickstart
+        url: /sdks/getting-started/golang-quickstart
+      - page: .NET
+        url: /sdks/getting-started/dotnet-quickstart
+      - page: Node.js
+        url: /sdks/getting-started/node-quickstart
   - title: Using SDKs
     url: /thing1.html
     subfolderitems:
-      - page: Javascript Quickstart
+      - page: Environments
         url: /thing1.html
-      - page: iOS Quickstart
+      - page: Regions
         url: /thing2.html
-      - page: Android Quickstart
+      - page: Namespaces
         url: /thing3.html
-  - title: Server API
+      - page: Apps
+        url: /thing1.html
+      - page: Wallets
+        url: /thing2.html
+      - page: Identities
+        url: /thing3.html
+      - page: Blockchains
+        url: /thing3.html
+      - page: Blocks
+        url: /thing3.html
+  - title: Header 3
     url: /thing1.html
     subfolderitems:
-      - page: Javascript Quickstart
+      - page: Subheader 1
         url: /thing1.html
-      - page: iOS Quickstart
+      - page: Subheader 2
         url: /thing2.html
-      - page: Android Quickstart
+      - page: Subheader 3
         url: /thing3.html
 
 
@@ -34,58 +48,76 @@ ui-elements:
   - title: Getting Started
     url: /thing1.html
     subfolderitems:
-      - page: Javascript Quickstart
+      - page: React.js Quickstart
+        url: /thing1.html
+      - page: Vue.js Quickstart
+        url: /thing1.html
+      - page: Angular.js Quickstart
         url: /thing1.html
       - page: iOS Quickstart
-        url: /thing2.html
+        url: /thing1.html
       - page: Android Quickstart
+        url: /thing2.html
+      - page: React Native Quickstart
         url: /thing3.html
-  - title: Using SDKs
+      - page: Flutter Quickstart
+        url: /thing3.html
+  - title: Components
     url: /thing1.html
     subfolderitems:
-      - page: Javascript Quickstart
+      - page: Environments
         url: /thing1.html
-      - page: iOS Quickstart
+      - page: Regions
         url: /thing2.html
-      - page: Android Quickstart
+      - page: Namespaces
         url: /thing3.html
-  - title: Server API
+      - page: Apps
+        url: /thing1.html
+      - page: Wallets
+        url: /thing2.html
+      - page: Identities
+        url: /thing3.html
+      - page: Blockchains
+        url: /thing3.html
+      - page: Blocks
+        url: /thing3.html
+  - title: Header 3
     url: /thing1.html
     subfolderitems:
-      - page: Javascript Quickstart
+      - page: Subheader 1
         url: /thing1.html
-      - page: iOS Quickstart
+      - page: Subheader 2
         url: /thing2.html
-      - page: Android Quickstart
+      - page: Subheader 3
         url: /thing3.html
 
 
 
 data-lake:
-  - title: Getting Started
+  - title: Header 1
     url: /thing1.html
     subfolderitems:
-      - page: Javascript Quickstart
+      - page: Subheader 1
         url: /thing1.html
-      - page: iOS Quickstart
+      - page: Subheader 2
         url: /thing2.html
-      - page: Android Quickstart
+      - page: Subheader 3
         url: /thing3.html
-  - title: Using SDKs
+  - title: Header 2
     url: /thing1.html
     subfolderitems:
-      - page: Javascript Quickstart
+      - page: Subheader 1
         url: /thing1.html
-      - page: iOS Quickstart
+      - page: Subheader 2
         url: /thing2.html
-      - page: Android Quickstart
+      - page: Subheader 3
         url: /thing3.html
-  - title: Server API
+  - title: Header 3
     url: /thing1.html
     subfolderitems:
-      - page: Javascript Quickstart
+      - page: Subheader 1
         url: /thing1.html
-      - page: iOS Quickstart
+      - page: Subheader 2
         url: /thing2.html
-      - page: Android Quickstart
+      - page: Subheader 3
         url: /thing3.html

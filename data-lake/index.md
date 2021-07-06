@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Lake
-permalink: /docs/data-lake/
+permalink: /data-lake/
 ---
 
 # JavaScript quick start

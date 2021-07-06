@@ -1,3 +1,13 @@
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
 /******************************************************************/
 /*************************** Site Logo ****************************/
 /******************************************************************/
@@ -48,6 +58,9 @@
 #site-header {
     background: var(--core-color-one);
     max-height: 109px;
+    -webkit-box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);
+    -moz-box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);
+    box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);
 }
     
 #header-wrapper {
@@ -188,11 +201,12 @@
 
 .sidebar-menu {
     list-style: none;
-    padding-inline-start: 0px;
+    padding-inline-start: 8px;
 }
 
 .sidebar-menu li{
-    padding: 8px;
+    padding: 12px;
+    margin-right: 24px;
     border-radius: 8px;
 }
 
@@ -239,9 +253,12 @@
 
 .row {
     display: flex;
+    z-index: -1;
 }
 #sidebar {
+    padding-left: 20px;
     width: 33.33%;
+    max-width: 300px;
     -webkit-box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);
     -moz-box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);
     box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);

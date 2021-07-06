@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sdks
 title: SDKs
-permalink: /docs/sdks/
+permalink: /sdks/
 ---
