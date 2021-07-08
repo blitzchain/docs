@@ -19,8 +19,13 @@ layout: default
         <h2>Data Lake</h2>
     </div>
     <div id="page" class=column>
-        <h1>{{ page.title}}</h1>
-        {{ content }} 
+        <div id="page">
+            <h1>{{ page.title}}</h1>
+            {{ content }} 
+        </div>
+        <div id="sidebar">
+            {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=2 h_max=3 %}
+        </div>
     </div>
 </div>
 
