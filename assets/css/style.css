@@ -210,19 +210,28 @@ body {
     border-radius: 8px;
 }
 
+.sidebar-menu li a {
+    text-decoration: none;
+    color: #111111;
+}
+
 .sidebar-menu li:hover{
     background: #fafafa;
 }
 
-.sidebar-menu li a{
-    color:var(--theme-color-one);
-    text-decoration: none;
-}
-
-.sidebar-menu li a:hover{
-    background: #fafafa;
+.sidebar-menu li:hover a{
     color: #6E5AEA;
 }
+
+.sidebar-menu li.active{
+    background: #efefef;
+}
+
+.sidebar-menu li.active a{
+    color: #6E5AEA;
+}
+
+
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -235,9 +244,7 @@ body {
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
-    background-color: #ccc;
-  }
+
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
@@ -259,12 +266,30 @@ body {
     padding-left: 20px;
     width: 33.33%;
     max-width: 300px;
-    -webkit-box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);
-    -moz-box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);
-    box-shadow: 4px 0px 5px 0px rgba(138,138,138,1);
+    -webkit-box-shadow: 4px 0px 5px 0px rgb(243, 243, 243);
+    -moz-box-shadow: 4px 0px 5px 0px rgb(243 243, 243);
+    box-shadow: 4px 0px 5px 0px rgb(243, 243, 243);
 }
 
 #page {
-    width: 66.67%;
+    width: 46.67%;
     padding: 20px 40px 20px 40px;
+    display:flex;
+}
+
+#toc {
+    padding: 24px;
+    width: 20%;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+#page-toc {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+#page-toc li a {
+    text-decoration: none;
+    color: #111111;
 }
