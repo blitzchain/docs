@@ -17,21 +17,21 @@ sdks:
     url: /thing1.html
     subfolderitems:
       - page: Environments
-        url: /thing1.html
+        url: /sdks/using-sdks/environments
       - page: Regions
-        url: /thing2.html
+        url: /sdks/using-sdks/regions
       - page: Namespaces
-        url: /thing3.html
+        url: /sdks/using-sdks/namespaces
       - page: Apps
-        url: /thing1.html
+        url: /sdks/using-sdks/apps
       - page: Wallets
-        url: /thing2.html
+        url: /sdks/using-sdks/wallets
       - page: Identities
-        url: /thing3.html
+        url: /sdks/using-sdks/identities
       - page: Blockchains
-        url: /thing3.html
+        url: /sdks/using-sdks/blockchains
       - page: Blocks
-        url: /thing3.html
+        url: /sdks/using-sdks/blocks
   - title: Header 3
     url: /thing1.html
     subfolderitems:

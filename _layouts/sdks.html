@@ -28,9 +28,11 @@ layout: default
             {{ content }} 
         </div>
     </div>
-    <div id="toc">
-        <h4>Table of Contents</h4>
-        {% include toc.html html=content sanitize=true id="page-toc" h_min=2 h_max=3 %}
+    <div id="toc" class=column>
+        <div id="toc-container">
+            <h4>Table of Contents</h4>
+            {% include toc.html html=content sanitize=true id="page-toc" h_min=2 h_max=3 %}
+        </div>
     </div>
 </div>
 
