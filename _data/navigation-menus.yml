@@ -1,14 +1,24 @@
 docs_list_title: ACME Documentation
 primary-menu:
-
 - title: Products
   url: products.html
-
+  submenu:
+      - title: SDK's
+        url: products.html
+      - title: UI Elements
+        url: products.html
+      - title: Data Lake
+        url: products.html
 - title: Developers
   url: configuration.html
-
+  submenu:
+      - title: Docs
+        url: products.html
+      - title: Tutorials
+        url: products.html
 - title: Customer Stories
   url: deployment.html
-
 - title: Pricing
+  url: deployment.html
+- title: Support
   url: deployment.html

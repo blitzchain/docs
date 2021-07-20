@@ -4,17 +4,30 @@
         <nav id="desktop-navigation" class="menu-desktop-navigation-menu-container">
             <ul id="desktop-menu" class="header-menu">
                 {% for item in site.data.navigation-menus.primary-menu %}
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447">
-                    <a href="{{ item.url }}">{{ item.title }}</a>
-                </li>
+                    {% if item.submenu != null %}
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447">
+                            <a href="{{ item.url }}">{{ item.title }}
+                                <ul>
+                                    {% for sub in item.submenu %}
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447">
+                                            <a href="{{ sub.url }}">{{ sub.title }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </a>
+                        </li>
+                    {% else %}
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447">
+                            <a href="{{ item.url }}">{{ item.title }}</a>
+                        </li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         </nav>
-        <div>
-            <button class="toggle-button">Sign In</button>
-            <button class="toggle-button">Sign Up</button>
+        <div id="header-cta">
+            <button id="sign-in" class="toggle-button">Sign In</button>
+            <button id="sign-up" class="toggle-button">Sign Up</button>
         </div>
-        <a id="header-cta" href="{{ site.header_cta_url }}">{{ site.header_cta_title }}</a>
         <button id="mobile-menu-toggle" class="toggle-button" onclick="toggleMobileMenu()">&#9776;</button>
     </div>
 </header>
