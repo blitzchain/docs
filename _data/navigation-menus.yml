@@ -4,11 +4,11 @@ primary-menu:
   url: products.html
   submenu:
       - title: SDK's
-        url: products.html
+        url: http:localhost:3000/products/sdks
       - title: UI Elements
-        url: products.html
+        url: http:localhost:3000/products/ui-elements
       - title: Data Lake
-        url: products.html
+        url: http:localhost:3000/products/data-lake
 - title: Developers
   url: configuration.html
   submenu:
@@ -17,8 +17,8 @@ primary-menu:
       - title: Tutorials
         url: products.html
 - title: Customer Stories
-  url: deployment.html
+  url: http:localhost:3000/customer-stories
 - title: Pricing
-  url: deployment.html
+  url: http:localhost:3000/pricing
 - title: Support
-  url: deployment.html
+  url: http:localhost:3000/support
