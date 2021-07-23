@@ -273,7 +273,26 @@ body {
 }
 
 
+/******************************************************************/
+/*************************** Footer *******************************/
+/******************************************************************/
 
+#site-footer {
+    background: #FFFFFF;
+  padding:24px;
+}
+    
+#footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-menus {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 
 
