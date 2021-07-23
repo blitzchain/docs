@@ -13,9 +13,9 @@ primary-menu:
   url: configuration.html
   submenu:
       - title: Docs
-        url: products.html
+        url: https://blitzchain.github.io/docs/
       - title: Tutorials
-        url: products.html
+        url: https://blitzchain.github.io/tutorials
 - title: Customer Stories
   url: http:localhost:3000/customer-stories
 - title: Pricing
