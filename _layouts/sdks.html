@@ -10,7 +10,8 @@ layout: default
             <h3>{{ item.title }}</h3>
             <ul class="sidebar-menu">
                 {% for entry in item.subfolderitems %}
-                    {% if page.url == entry.url %}
+                    {% assign page_url = site.baseurl | append: page.url %}
+                    {% if page_url== entry.url %}
                     <li class="active"><a href="{{ entry.url }}" class="active">{{ entry.page }}</a></li>
                     {% else %}
                     <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
