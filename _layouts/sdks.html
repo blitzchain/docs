@@ -23,16 +23,16 @@ layout: default
         <h2>UI Elements</h2>
         <h2>Data Lake</h2>
     </div>
-    <div id="page" class=column>
+    <div id="article-content">
         <div id="content">
             <h1>{{ page.title}}</h1>
             {{ content }} 
         </div>
-    </div>
-    <div id="toc" class=column>
-        <div id="toc-container">
-            <h4>Table of Contents</h4>
-            {% include toc.html html=content sanitize=true id="page-toc" h_min=2 h_max=3 %}
+        <div id="toc">
+            <div id="toc-container">
+                <h4>Table of Contents</h4>
+                {% include toc.html html=content sanitize=true id="page-toc" h_min=2 h_max=3 %}
+            </div>
         </div>
     </div>
 </div>

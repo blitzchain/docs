@@ -4,11 +4,11 @@ primary-menu:
   url: products.html
   submenu:
       - title: SDK's
-        url: http:localhost:3000/products/sdks
+        url: http://localhost:3000/products/sdks
       - title: UI Elements
-        url: http:localhost:3000/products/ui-elements
+        url: http://localhost:3000/products/ui-elements
       - title: Data Lake
-        url: http:localhost:3000/products/data-lake
+        url: http:l//ocalhost:3000/products/data-lake
 - title: Developers
   url: configuration.html
   submenu:
@@ -17,8 +17,8 @@ primary-menu:
       - title: Tutorials
         url: https://blitzchain.github.io/tutorials
 - title: Customer Stories
-  url: http:localhost:3000/customer-stories
+  url: http://localhost:3000/customer-stories
 - title: Pricing
-  url: http:localhost:3000/pricing
+  url: http://localhost:3000/pricing
 - title: Support
-  url: http:localhost:3000/support
+  url: http://localhost:3000/support
