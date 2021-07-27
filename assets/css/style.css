@@ -425,3 +425,44 @@ body {
   color: #6E5AEA;
   font-weight: bold;
 }
+
+/******************************************************************/
+/*************************** Content *************************/
+/******************************************************************/
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px 20px 40px;
+}
+
+.card-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid #f4f4f4;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 12px;
+}
+
+.card h3 {
+    font-size: x-large;
+}
+
+.card-link {
+    display: block;
+    background: #6d5aea38;
+    margin-top: 12px;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: 000000;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    color:#6E5AEA;
+}

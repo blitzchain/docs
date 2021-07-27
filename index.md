@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: home
 title: Documentation
 permalink: /
 ---
 
 Documentation
-Welcome to Pusher. Our hosted APIs are flexible, scalable, and easy to integrate. Get to know our products by getting started or exploring our API documentation.
+Welcome to Blitzchain. Our hosted APIs are flexible, scalable, and easy to integrate. Get to know our products by getting started or exploring our API documentation.
 
 
 <a href="sdks/">SDKs</a>
